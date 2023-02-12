@@ -115,9 +115,8 @@ const App = () => {
 
     const openFile = (filepath: any) => {
         const path = filepath;
+        console.log(path)
         FileViewer.open(path)
-            .then(() => { })
-            .catch(error => { });
     }
 
     const openPdf = async (pdfname: string) => {
