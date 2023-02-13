@@ -109,13 +109,10 @@ const App = () => {
                 },
             ]
         );
-        console.log(file);
     }
-    console.log(malzeme);
 
     const openFile = (filepath: any) => {
         const path = filepath;
-        console.log(path)
         FileViewer.open(path)
     }
 
@@ -443,6 +440,7 @@ const App = () => {
                                 {
                                     Data.map((e) => {
                                         const [tick, settick] = useState<boolean>(false);
+
                                         const HandleMalzeme = (value: string) => {
                                             if (tick === true) {
                                                 settick(false)
@@ -454,18 +452,29 @@ const App = () => {
                                                 setMalzeme([...malzeme, value])
                                             }
                                         }
+
                                         return (
                                             <TouchableOpacity
                                                 onPress={() => HandleMalzeme(e.value)}
                                                 key={e.id}
                                             >
                                                 <View style={styles.listinnercontainer}>
-                                                    <View style={[tick ? styles.listinleçpress : styles.listinleç]}></View>
+                                                    <View style={[
+                                                        styles.listimleç,
+                                                        tick ? {
+                                                            borderColor: '#32cd32',
+                                                            backgroundColor: '#32cd32',
+                                                        } : {
+                                                            borderColor: '#FFBE1C',
+                                                            backgroundColor: '#000',
+                                                        }
+                                                    ]}></View>
                                                     <Text style={styles.listtitle}>
                                                         {e.title}
                                                     </Text>
                                                 </View>
                                             </TouchableOpacity>
+
                                         )
                                     })
                                 }
@@ -594,11 +603,10 @@ const styles = StyleSheet.create({
         color: '#fff'
     },
     listcontainer: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
+        justifyContent: 'center',
+        alignItems: 'center',
         marginVertical: 15,
-        gap: 10,
+        gap: 5,
         borderWidth: 1,
         borderColor: '#fff',
         borderRadius: 5,
@@ -618,16 +626,8 @@ const styles = StyleSheet.create({
         marginVertical: 2,
         marginHorizontal: 10
     },
-    listinleç: {
+    listimleç: {
         borderWidth: 1,
-        borderColor: '#FFBE1C',
-        width: 20,
-        height: 20,
-        borderRadius: 10,
-        marginHorizontal: 3
-    },
-    listinleçpress: {
-        backgroundColor: '#32cd32',
         width: 20,
         height: 20,
         borderRadius: 10,

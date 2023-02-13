@@ -1,122 +1,112 @@
 [
     {
         "id": 0,
-        "title": "Malzeme 1",
-        "value": "Malzeme 1"
+        "title": "Tampon",
+        "value": "Tampon"
     },
     {
         "id": 1,
-        "title": "Malzeme 2",
-        "value": "Malzeme 2"
+        "title": "Panjur",
+        "value": "Panjur"
     },
     {
         "id": 2,
-        "title": "Malzeme 3",
-        "value": "Malzeme 3"
+        "title": "Motor Kaputu",
+        "value": "Motor Kaputu"
     },
     {
         "id": 3,
-        "title": "Malzeme 4",
-        "value": "Malzeme 4"
+        "title": "Ön Cam",
+        "value": "Ön Cam"
     },
     {
         "id": 4,
-        "title": "Malzeme 5",
-        "value": "Malzeme 5"
+        "title": "Açılır Tavan (Sunroof)",
+        "value": "Açılır Tavan (Sunroof)"
     },
     {
         "id": 5,
-        "title": "Malzeme 6",
-        "value": "Malzeme 6"
+        "title": "Ön Direk",
+        "value": "Ön Direk"
     },
     {
         "id": 6,
-        "title": "Malzeme 7",
-        "value": "Malzeme 7"
+        "title": "Tavan Sacı",
+        "value": "Tavan Sacı"
     },
     {
         "id": 7,
-        "title": "Malzeme 8",
-        "value": "Malzeme 8"
+        "title": "Kapı Çerçevesi",
+        "value": "Kapı Çerçevesi"
     },
     {
         "id": 8,
-        "title": "Malzeme 9",
-        "value": "Malzeme 9"
+        "title": "Orta Direk",
+        "value": "Orta Direk"
     },
     {
         "id": 9,
-        "title": "Malzeme 10",
-        "value": "Malzeme 10"
+        "title": "Kapı Camı",
+        "value": "Kapı Camı"
     },
     {
         "id": 10,
-        "title": "Malzeme 11",
-        "value": "Malzeme 11"
+        "title": "Dış Kapı Kolu",
+        "value": "Dış Kapı Kolu"
     },
     {
         "id": 11,
-        "title": "Malzeme 12",
-        "value": "Malzeme 12"
+        "title": "Yan Ayna (Kapı Aynası)",
+        "value": "Yan Ayna (Kapı Aynası)"
     },
     {
         "id": 12,
-        "title": "Malzeme 13",
-        "value": "Malzeme 13"
+        "title": "Kapı Paneli",
+        "value": "Kapı Paneli"
     },
     {
         "id": 13,
-        "title": "Malzeme 14",
-        "value": "Malzeme 14"
+        "title": "Çamurluk Paneli",
+        "value": "Çamurluk Paneli"
     },
     {
         "id": 14,
-        "title": "Malzeme 15",
-        "value": "Malzeme 15"
+        "title": "Yan Çıta (Koruma Çıtası)",
+        "value": "Yan Çıta (Koruma Çıtası)"
     },
     {
         "id": 15,
-        "title": "Malzeme 16",
-        "value": "Malzeme 16"
+        "title": "Parçalık",
+        "value": "Parçalık"
     },
     {
         "id": 16,
-        "title": "Malzeme 17",
-        "value": "Malzeme 17"
+        "title": "Arka Cam",
+        "value": "Arka Cam"
     },
     {
         "id": 17,
-        "title": "Malzeme 18",
-        "value": "Malzeme 18"
+        "title": "Arka Spoiler",
+        "value": "Arka Spoiler"
     },
     {
         "id": 18,
-        "title": "Malzeme 19",
-        "value": "Malzeme 19"
+        "title": "Bagaj Kapağı",
+        "value": "Bagaj Kapağı"
     },
     {
         "id": 19,
-        "title": "Malzeme 20",
-        "value": "Malzeme 20"
+        "title": "Yakıt Deposu Kapağı",
+        "value": "Yakıt Deposu Kapağı"
     },
     {
         "id": 20,
-        "title": "Malzeme 21",
-        "value": "Malzeme 21"
+        "title": "Arka Çamurluk Paneli",
+        "value": "Arka Çamurluk Paneli"
     },
     {
         "id": 21,
-        "title": "Malzeme 22",
-        "value": "Malzeme 22"
-    },
-    {
-        "id": 22,
-        "title": "Malzeme 23",
-        "value": "Malzeme 23"
-    },
-    {
-        "id": 23,
-        "title": "Malzeme 24",
-        "value": "Malzeme 24"
+        "title": "Arka Direk",
+        "value": "Arka Direk"
     }
 ]
