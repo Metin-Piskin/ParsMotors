@@ -29,12 +29,12 @@
 <details>
 <summary>Library</summary>
 
-- react-native-html-to-pdf
+- <a href="https://www.npmjs.com/package/react-native-html-to-pdf" target="_blank"> react-native-html-to-pdf </a>
 
-- react-native-vector-icons
+- <a href="https://www.npmjs.com/package/react-native-vector-icons" target="_blank"> react-native-vector-icons </a>
 
-- react-native-file-viewe
+- <a href="https://www.npmjs.com/package/react-native-file-viewer" target="_blank"> react-native-file-viewe </a>
 
-- formik
+- <a href="https://www.npmjs.com/package/formik" target="_blank"> formik </a>
 
 </details>
